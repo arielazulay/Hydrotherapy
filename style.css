@@ -135,3 +135,21 @@ hr {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
+.picture-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 25px;
+}
+img {
+  margin: 15px;
+  border: 2px blue solid;
+  border-radius: 15%;
+}
+.hydro-h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  text-decoration: underline;
+}
