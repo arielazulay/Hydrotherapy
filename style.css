@@ -94,7 +94,7 @@ section {
   background-color: rgba(245, 245, 245, 0.7);
   border-radius: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .content-span {
   background-color: yellow;
@@ -129,7 +129,8 @@ hr {
   border-radius: 15px;
   transition: background-color 5s 1s, color 5s 1s;
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden;
+  overflow: visible; */
 }
 .content-tot-b:hover {
   background-color: rgb(255, 255, 255);
