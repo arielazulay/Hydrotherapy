@@ -20,6 +20,7 @@ header {
 }
 .logo-h {
   display: flex;
+
   justify-content: center;
   text-decoration-line: underline;
   font-size: x-large;
@@ -147,6 +148,10 @@ img {
   margin: 15px;
   border: 2px blue solid;
   border-radius: 15%;
+}
+.video-1 {
+  display: flex;
+  flex-direction: row;
 }
 .hydro-h3 {
   text-align: center;
